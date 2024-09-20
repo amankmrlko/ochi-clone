@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: neu;
+  src: url("./assets/NeueMontreal-Regular.ttf");
+}
+@font-face {
+  font-family: founder;
+  src: url("./assets/FoundersGrotesk-Semibold.ttf");
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  user-select: none;
+}
+.links {
+  font-family: "neu";
+}
+.neu-font {
+  font-family: "neu";
+}
+.masker {
+  font-family: "founder";
+}
+.founder-font {
+  font-family: "founder";
+}
+.img-text {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
